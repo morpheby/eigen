@@ -1,0 +1,44 @@
+{
+    "$schema": "https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/schema/library.json",
+    "name": "eigen",
+    "version": "3.4.0",
+    "repository": {
+        "url": "https://gitlab.com/libeigen/eigen.git"
+    },
+    "headers": [
+        "Cholesky",
+        "CholmodSupport",
+        "Core",
+        "Dense",
+        "Eigen",
+        "Eigenvalues",
+        "Geometry",
+        "Householder",
+        "IterativeLinearSolvers",
+        "Jacobi",
+        "KLUSupport",
+        "LU",
+        "MetisSupport",
+        "OrderingMethods",
+        "PardisoSupport",
+        "PaStiXSupport",
+        "QR",
+        "QtAlignedMalloc",
+        "Sparse",
+        "SparseCholesky",
+        "SparseCore",
+        "SparseLU",
+        "SparseQR",
+        "SPQRSupport",
+        "StdDeque",
+        "StdList",
+        "StdVector",
+        "SuperLUSupport",
+        "SVD",
+        "UmfPackSupport"
+    ],
+    "build": {
+        "srcDir": "Eigen/src",
+        "includeDir": "Eigen"
+    }
+}
