@@ -39,6 +39,6 @@
     ],
     "build": {
         "srcDir": "Eigen/src",
-        "includeDir": ""
+        "includeDir": "."
     }
 }
